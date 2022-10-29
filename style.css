@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9139005944174545) 13%, rgba(2, 55, 92, 0.8102591378348214) 100%);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(30, 29, 29, 0.914);
+}
+
+.logo {
+    height: 60px;
+    border-radius: 10px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 100px;
+    gap: 32px;
+
+}
+
+.menu-item {
+    font-size: 30px;
+    font-family: 'Sarala';
+    display: flex;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: rgba(2, 55, 92, 0.8102591378348214);
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(2, 55, 92, 0.8102591378348214);
+}
+
+.menu-item:hover {
+    background-color: rgba(2, 55, 92, 0.8102591378348214);
+    color: antiquewhite;
+
+}
+
+main {
+    margin-bottom: 48px;
+    border-top: 2px solid white;
+}
+
+.pesquisa {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    border-radius: 10px;
+    color: rgba(2, 55, 92, 0.8102591378348214);
+    margin: 50px;
+}
+
+.linha {
+    border-bottom: 2px solid white;
+}
+
+.pes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 40px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: rgba(2, 55, 92, 0.8102591378348214);
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(2, 55, 92, 0.8102591378348214);
+    color: antiquewhite;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 130px;
+    padding: 10px;
+}
+
+.titulo {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: rgba(2, 55, 92, 0.8102591378348214);
+
+}
+
+.achegada {
+    border: 2px solid white;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    border-radius: 10px;
+
+
+}
+
+
+#tabela1 {
+    font-size: 25px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 450px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+}
+
+.apele {
+    border: 2px solid white;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+#tabela2 {
+    font-size: 25px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 450px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+}
+
+.mae {
+    border: 2px solid white;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+#tabela3 {
+    font-size: 25px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 450px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+}
+
+h1 {
+    color: rgba(2, 55, 92, 0.8102591378348214);
+}
+
+li {
+    color: rgba(30, 29, 29, 0.914);
+}
+
+footer {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid white;
+    height: 80px;
+    background-color: rgba(30, 29, 29, 0.914);
+    color: antiquewhite;
+}
+
+.git {
+    margin-left: 15px;
+}
+
+@media screen and (max-device-width: 414px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9139005944174545) 13%, rgba(2, 55, 92, 0.8102591378348214) 100%);
+    }
+
+    .container {
+        display: grid;
+        grid-template-rows: 10vh 1fr 8vh;
+
+    }
+
+    header {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+    }
+
+    .logo {
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .menu {
+        display: grid;
+        justify-content: end;
+        justify-items: end;
+        gap: 3px;
+    }
+
+    .menu-item {
+        font-size: 15px;
+        font-family: 'Sarala';
+        display: grid;
+        border-radius: 10px;
+        background-color: antiquewhite;
+        color: rgba(2, 55, 92, 0.8102591378348214);
+        width: 60px;
+        height: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(2, 55, 92, 0.8102591378348214);
+    }
+
+    main {
+        margin-bottom: 88px;
+        border-top: 2px solid white;
+    }
+
+    .pesquisa {
+        font-size: 20px;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        gap: 2px;
+        margin: 5px;
+        border-radius: 10px;
+        color: rgba(2, 55, 92, 0.8102591378348214);
+    }
+
+    .pes {
+        display: grid;
+        width: 200px;
+        height: 30px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    button {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        border-radius: 10px;
+        background-color: antiquewhite;
+        color: rgba(2, 55, 92, 0.8102591378348214);
+        border: none;
+        width: 80px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .buscar {
+        width: 150px;
+        height: 35px;
+        border-radius: 10px;
+    }
+
+    .principal {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        gap: 32px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .titulo {
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .achegada {
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+    }
+
+    #tabela1 {
+        font-size: 20px;
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+        color: antiquewhite;
+        padding: 20px;
+    }
+
+    .apele {
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+    }
+
+    #tabela2 {
+        font-size: 20px;
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+        color: antiquewhite;
+        padding: 20px;
+    }
+
+    .mae {
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+    }
+
+    #tabela3 {
+        font-size: 20px;
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+        color: antiquewhite;
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-top: 2px solid white;
+    }
+
+    .git {
+        margin-left: 5px;
+    }
+}
