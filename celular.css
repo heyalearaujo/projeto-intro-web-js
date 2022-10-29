@@ -1,0 +1,169 @@
+@media screen and (max-device-width: 414px) and (max-device-width : 414px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 100%;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9139005944174545) 13%, rgba(2, 55, 92, 0.8102591378348214) 100%);
+    }
+
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 8vh 1fr 8vh;
+
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .logo {
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .menu {
+        display: grid;
+        justify-content: end;
+        justify-items: end;
+        gap: 3px;
+    }
+
+    .menu-item {
+        font-size: 15px;
+        font-family: 'Sarala';
+        display: grid;
+        border-radius: 10px;
+        background-color: antiquewhite;
+        color: rgba(2, 55, 92, 0.8102591378348214);
+        width: 60px;
+        height: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(2, 55, 92, 0.8102591378348214);
+    }
+
+    main {
+        margin-bottom: 88px;
+        border-top: 2px solid white;
+    }
+
+    .pesquisa {
+        font-size: 20px;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        gap: 2px;
+        margin: 5px;
+        border-radius: 10px;
+        color: rgba(2, 55, 92, 0.8102591378348214);
+    }
+
+    .pes {
+        display: grid;
+        width: 200px;
+        height: 30px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    button {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        border-radius: 10px;
+        background-color: antiquewhite;
+        color: rgba(2, 55, 92, 0.8102591378348214);
+        border: none;
+        width: 80px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .buscar {
+        width: 150px;
+        height: 35px;
+        border-radius: 10px;
+    }
+
+    .principal {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        gap: 32px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .titulo {
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .achegada {
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+    }
+
+    #tabela1 {
+        font-size: 20px;
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+        color: antiquewhite;
+        padding: 20px;
+    }
+
+    .apele {
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+    }
+
+    #tabela2 {
+        font-size: 20px;
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+        color: antiquewhite;
+        padding: 20px;
+    }
+
+    .mae {
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+    }
+
+    #tabela3 {
+        font-size: 20px;
+        border: 2px solid white;
+        width: 280px;
+        height: 380px;
+        color: antiquewhite;
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-top: 2px solid white;
+    }
+
+    .git {
+        margin-left: 5px;
+    }
+}
